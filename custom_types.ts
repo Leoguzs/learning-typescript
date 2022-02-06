@@ -59,7 +59,9 @@ let x = point.x //nos da el valor actual de X
 point.x = 6;
 point.draw();
 
-
-
-
 //en Typescript no podemos tener múltiples constructores, pero cuando usamos un constructor, podemos establecer que los parámetros a ingresar serán opcionales
+
+//modulos
+
+//ponemos la clase en otro modulo y antes la palabra 'export'
+//instanciamos en otro módulo import { Point, a, b, c } from './points'
